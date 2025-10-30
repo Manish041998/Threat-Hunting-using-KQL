@@ -139,7 +139,7 @@ AADSignInEventsBeta
 
 ```kusto
 AADSignInEventsBeta
-| where AccountUpn == "vignesh.sreenivasan@zellis.com"
+| where AccountUpn == ""
 | project TimeGenerated, Application, ClientAppUsed, IPAddress, Country, City, AuthenticationRequirement, RiskLevelDuringSignIn
 | order by TimeGenerated desc
 ```
