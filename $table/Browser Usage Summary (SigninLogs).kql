@@ -1,0 +1,9 @@
+SigninLogs
+| extend UA_OS = parse_user_agent(UserAgent, "os")
+| extend UA_Browser = parse_user_agent(UserAgent, "browser")
+| extend 
+    Family  = tostring(UA_OS.OperatingSystem.Family),
+    Major   = tostring(UA_OS.OperatingSystem.MajorVersion),
+    Browser = tostring(UA_Browser.Browser.Family)
+| where isnotempty(Major) and isnotempty(Family)
+| summarize count() by Browser
