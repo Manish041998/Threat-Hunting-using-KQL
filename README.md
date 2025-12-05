@@ -14,7 +14,7 @@ This repository contains a curated set of **Kusto Query Language (KQL)** queries
 ```
 
 ├── Mitre/                  # Queries mapped to MITRE ATT\&CK TTPs
-├── $tables/                 # Queries organized by Microsoft Defender table name
+├── $tables/                 # Queries organized by Microsoft Defender & Sentinel table name
 ├── Activity/               # Queries categorized by type of attack or behavior
 └── README.md               # This file
 
