@@ -32,18 +32,6 @@ This repository contains a curated set of **Kusto Query Language (KQL)** queries
 1. Clone the repository:
    ```bash
    git clone https://github.com/Manish041998/KQL---Threat-Hunting
-   
-2. Open the `.kql` files in Azure Sentinel or Microsoft Defender Advanced Hunting
-3. Modify variables like `DeviceName`, `TimeRange`, or `AccountName` as needed
-4. Run and pivot your investigation
-
-## 📚 MITRE Mapping
-
-Each query in the `mitre/` folder includes the associated MITRE ATT\&CK technique ID in the filename and within the query comments.
-
-## 📬 Contributions
-
-Feel free to fork, modify, and raise a pull request if you have improvements or new queries to share!
 
 **Created by:** Sai Manish
 **License:** MIT
